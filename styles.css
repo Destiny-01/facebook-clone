@@ -174,12 +174,6 @@ footer {
     background-color: #fff;
   }
 
-  header {
-    background-color: #fffbe2;
-    padding: 10px;
-    color: #576b95;
-  }
-
   .or {
     direction: ltr;
     line-height: 18px;
@@ -228,7 +222,7 @@ footer {
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 1em;
   }
   form {
     width: fit-content;
@@ -312,5 +306,8 @@ footer {
   }
   .d2 {
     color: gray;
+  }
+  header::before {
+    background: url(./mobile.png) no-repeat;
   }
 }
