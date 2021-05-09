@@ -174,49 +174,10 @@ footer {
     background-color: #fff;
   }
 
-  .or {
-    direction: ltr;
-    line-height: 18px;
-    -webkit-text-size-adjust: none;
-    cursor: default;
-    display: block;
-    overflow: hidden;
-    text-align: center;
-    white-space: nowrap;
-    margin: 12px 0 4px 0;
-    width: 100%;
+  form img {
+    margin: 10px;
   }
 
-  span {
-    font-size: 14px;
-    line-height: 18px;
-    -webkit-text-size-adjust: none;
-    cursor: default;
-    text-align: center;
-    white-space: nowrap;
-    color: #4b4f56;
-    display: inline-block;
-    position: relative;
-  }
-
-  span:before {
-    margin-right: 15px;
-    right: 100%;
-  }
-  span:before,
-  span:after {
-    background: #ccd0d5;
-    content: "";
-    height: 1px;
-    position: absolute;
-    top: 50%;
-    width: 99999px;
-  }
-
-  span:after {
-    left: 100%;
-    margin-left: 15px;
-  }
   main p {
     color: #1877f2;
     font-size: 20px;
