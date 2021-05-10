@@ -197,19 +197,19 @@ footer {
 
   form a {
     font-size: 14px;
+    color: #3c8bf3;
   }
 
   input {
     width: 90%;
     padding: 11px;
-    background-color: #f0f0f0;
-    /* font-weight: 300; */
+    background-color: #f5f6f7;
+    font-weight: 500;
     font-size: 14px;
     margin: 4px;
     border-style: none;
     border: 1px solid #e0e0e0;
     box-shadow: 6px 3px 6px white, 1px 4px 4px white;
-    /* box-shadow: 1px 1px 1px 1px gray, 1px 1px 1px 1px gray; */
   }
   .submit {
     background-color: #1877f2;
@@ -244,10 +244,6 @@ footer {
     position: relative;
     bottom: 1px;
     width: 100%;
-  }
-
-  form a {
-    color: #235c96;
   }
 
   footer {
